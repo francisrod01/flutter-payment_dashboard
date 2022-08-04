@@ -18,8 +18,8 @@ class SideBar extends StatelessWidget {
       child: Drawer(
         elevation: 0,
         child: ListView(
-          children: const [
-            DrawerHeader(
+          children: [
+            const DrawerHeader(
               child: Center(
                 child: Text('Pay', style: titleStyle),
               ),
