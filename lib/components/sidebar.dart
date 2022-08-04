@@ -29,6 +29,31 @@ class SideBar extends StatelessWidget {
               title: 'Home',
               press: () {},
             ),
+            DrawerListTitle(
+              svgSrc: 'images/email.svg',
+              title: 'Messages',
+              press: () {},
+            ),
+            DrawerListTitle(
+              svgSrc: 'images/chat.svg',
+              title: 'Notifications',
+              press: () {},
+            ),
+            DrawerListTitle(
+              svgSrc: 'images/user.svg',
+              title: 'About',
+              press: () {},
+            ),
+            DrawerListTitle(
+              svgSrc: 'images/upload.svg',
+              title: 'Upload',
+              press: () {},
+            ),
+            DrawerListTitle(
+              svgSrc: 'images/settings.svg',
+              title: 'Settings',
+              press: () {},
+            ),
           ],
         ),
       ),
